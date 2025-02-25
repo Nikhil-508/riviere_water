@@ -1,0 +1,95 @@
+@media (max-width: 480px) {
+  .otp-verification-page {
+    font-family: "Poppins", "serif";
+    padding: 20px;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 42.4%, #000 64.4%);
+  }
+
+  .otp-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .otp-content {
+    padding: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 50px;
+  }
+
+  .otp-head {
+    text-align: left;
+  }
+
+  .otp-submit-btn {
+    width: 100%;
+    background-color: #2c3f9d;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    height: 55px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+  }
+
+  .otp-fields {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .otp-fields input[type="number"] {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #111111;
+    text-align: center;
+  }
+
+  .otp-fields input[type="number"]:focus {
+    outline: none;
+  }
+
+  .resend-otp {
+    color: #0ab1ff;
+    margin-top: 10px;
+  }
+
+  .resend-otp {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .otp-head h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+  }
+
+  .otp-head p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    margin: 10px 0;
+  }
+
+  .otp-head h1 span {
+    color: #339cfe;
+  }
+}

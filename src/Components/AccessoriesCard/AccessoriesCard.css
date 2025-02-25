@@ -1,0 +1,112 @@
+@media (max-width: 480px) {
+  .accessories-card {
+    width: 48%;
+    min-width: 160px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0.2px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+  }
+
+  .accessories-card .product {
+    width: 100px;
+    height: 120px;
+  }
+
+  .accessories-card .card-content {
+    width: 100%;
+  }
+
+  .accessories-card h1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #111111;
+    margin: 5px 0;
+    text-align: left;
+  }
+
+  .accessories-card .sub-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #545454;
+    text-align: left;
+  }
+
+  .accessories-card .card-price-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    flex-wrap: nowrap;
+  }
+
+  /* Ensure each element gets proper spacing */
+  .card-price-section .price {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.23px;
+    color: #111111;
+    text-align: left;
+  }
+
+  .card-price-section .price-org {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #9b9b9b;
+    text-align: center;
+  }
+
+  .card-price-section .price-off {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    color: #00a82a;
+    text-align: right;
+  }
+
+  .card-price-section p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .accessories-card .buy-now-btn {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #2c3f9d;
+    border-radius: 50px;
+    border: 1px solid #bdbdbd;
+    background-color: #ffffff;
+    width: 100%;
+    height: 30px;
+  }
+
+  .add-to-cart {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0px 0px 8.89px 0.18px rgba(0, 0, 0, 0.06);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #ffffff;
+  }
+
+  .accessories-card .add-to-cart img {
+    width: 15px;
+    height: 15px;
+  }
+}

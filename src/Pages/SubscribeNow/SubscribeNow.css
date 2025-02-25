@@ -1,0 +1,235 @@
+@media (max-width: 480px) {
+  .subscribe-now {
+    width: 100%;
+    font-family: "Poppins", "Serif";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subscribe-now-head {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+  }
+
+  :is(.subscribe-now-head) .left-arrow,
+  span {
+    width: 10px;
+    height: 15px;
+  }
+
+  .subscribe-now-head h1 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #111111;
+  }
+
+  .subscribe-now-content {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subscribe-now-content .details {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .details h1 {
+    font-weight: 800;
+    font-size: 43.44px;
+    line-height: 48px;
+    color: #ffffff;
+  }
+
+  .details img {
+    width: 120px;
+    height: 45px;
+  }
+
+  .details .price-section .price {
+    font-family: "DM Sans", "Serif";
+    font-weight: 700;
+    font-size: 21.57px;
+    line-height: 28.09px;
+    letter-spacing: 0.31px;
+    color: #111111;
+  }
+
+  .details .price-section .price span {
+    font-family: "Poppins", "serif";
+    font-weight: 600;
+    font-size: 15.41px;
+    line-height: 23.11px;
+    text-decoration: line-through;
+    color: #ebebeb;
+  }
+
+  .details .off {
+    font-weight: 700;
+    font-size: 15.41px;
+    line-height: 23.11px;
+    color: #fbff00;
+  }
+
+  .subscription-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  .button-container {
+    width: 100%;
+  }
+
+  .subscription-option {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0.2px rgba(0, 0, 0, 0.06);
+  }
+
+  .subscription-option h1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #111111;
+  }
+
+  .subscription-option .count-section {
+    border-bottom: 1px solid #e7e7e7;
+    margin: 10px 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .subscription-option p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #111111;
+  }
+
+  .checkout-btn {
+    width: 100%;
+    background-color: #2c3f9d;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    height: 55px;
+    border-radius: 50px;
+    border: none;
+  }
+
+  .count-left-side {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .five-gallon-bottle {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+  }
+
+  .count-right-side h1 {
+    text-align: right;
+  }
+
+  .right-side-counter {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 10px; */
+  }
+
+  .subscription-option-price-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .option-details h1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #111111;
+  }
+
+  .subscription-option-price-section .price-org {
+    text-decoration: line-through;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #9b9b9b;
+  }
+  .subscription-option-price-section .price-off {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #d64700;
+  }
+
+  .option-details p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #9b9b9b;
+  }
+
+  .count-right-side h1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #111111;
+  }
+  .count-right-side p {
+    text-align: center;
+    width: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .right-side-counter button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    color: #ffffff;
+    background-color: #008ed0;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .right-side-counter img {
+    width: 15px;
+    height: 15px;
+  }
+  .right-side-counter .minus {
+    width: 15px;
+    height: 2.5px;
+  }
+}
